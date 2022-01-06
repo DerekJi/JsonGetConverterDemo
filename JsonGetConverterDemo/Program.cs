@@ -1,5 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
-
 using System.Net;
 using System.Security.Cryptography;
 using System.Text.Json;
@@ -9,7 +7,6 @@ using JsonGetConverterDemo;
 Demo();
 
 Console.WriteLine("Ok!");
-
 
 void Demo()
 {
@@ -26,9 +23,6 @@ void Demo()
     //    Description = "Testing",
     //    AddressJson = address
     //};
-
-    //var addrJson = JsonSerializer.Serialize(address);
-    //var json = JsonSerializer.Serialize(sampleResponse);
 
     var encoded =
         "{\"StatusCode\":202,\"Description\":\"Testing\",\"AddressJson\":\"eyJTdHJlZXRObyI6IjVBIiwiU3RyZWV0IjoiU2FtcGxlIFN0cmVldCIsIlN1YnVyYiI6bnVsbCwiU3RhdGUiOiJTb3V0aCBBdXN0cmFsaWEiLCJDb3VudHJ5IjoiQXVzdHJhbGlhIn0=\"}";
